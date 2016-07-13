@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:padding="5dp"
+
+    >
+
+    <LinearLayout android:id="@+id/gridLinear_image"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+    <!--<ImageView
+        android:id="@+id/grid_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:src="@drawable/dog"
+        android:layout_height="wrap_content"/>-->
+
+        <com.example.suryasolanki.dogbazaar.RoundedImageView
+            android:id="@+id/grid_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp "
+            android:layout_marginTop="15dp"
+             />
+    <TextView
+        android:id="@+id/grid_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp"/>
+
+        </LinearLayout>
+
+</LinearLayout>

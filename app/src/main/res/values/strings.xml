@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dog Bazaar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <color name="dark_green">#FF33B5E5</color>
+    <string name="title_activity_animals_list">AnimalsList</string>
+    <string name="title_activity_galleries">Galleries</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_animal_service_list">AnimalServiceList</string>
+</resources>
